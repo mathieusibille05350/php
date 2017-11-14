@@ -1,0 +1,38 @@
+/* Scss Document */
+$largeurdroite : 6;
+$largeurgauche : 12-$largeurdroite;
+$marge : 10px;
+.toto_8
+{
+    color : blue;
+}
+.arriereplan {
+    
+    background-color: aqua;
+}
+
+.container {
+    width: 960px;
+}
+.gauche {
+    float: left;
+    height: 500px;
+   width: $largeurdroite*79px;
+    margin: $marge;
+    
+}
+.droite 
+{
+    float: right;
+    width: $largeurgauche*79px;
+    margin: $marge;
+}
+
+{
+    float: none;
+}
+
+.a 
+color lighten(couleur, en %)
+
+color darken(couleur, en %)
